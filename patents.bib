@@ -213,7 +213,8 @@
   year        = {2020},
   yearfiled   = {2020},
   assignee    = {Oracle Corp, Infinera Corp},
-  author      = {Kannan Raj and Jagwinder S. Brar and Abhinava Sadasiva Rao and Radhakrishna Valiveti and Sharfuddin Syed and Loukas Paraschis},
+  author      = {Kannan Raj and Jagwinder S. Brar and Abhinava Sadasiva Rao and 
+                 Radhakrishna Valiveti and Sharfuddin Syed and Loukas Paraschis},
   day         = {20},
   dayfiled    = {20},
   month       = feb,
@@ -222,7 +223,18 @@
   title       = {In-service data plane encryption verification},
   type        = {patreq},
   url         = {https://patents.google.com/patent/US20200280566A1/},
-  abstract    = {A method of executing in-session encryption verification includes receiving a plurality of client data packets for transmission through a network; receiving one or more test data packets for verifying an encryption device; merging the client data packets and the one or more test packets into a data stream; selecting security parameters for each packet in the data stream based on a corresponding packet type; encrypting each packet in the data stream using the encryption device and the corresponding security parameters; and transmitting the data stream comprising encrypted packets through the network. The method also includes decrypting the encrypted packets at a receiving system using congruent techniques.},
+  abstract    = {A method of executing in-session encryption verification includes 
+                 receiving a plurality of client data packets for transmission 
+                 through a network; receiving one or more test data packets for 
+                 verifying an encryption device; merging the client data packets 
+                 and the one or more test packets into a data stream; selecting 
+                 security parameters for each packet in the data stream based 
+                 on a corresponding packet type; encrypting each packet in the 
+                 data stream using the encryption device and the corresponding 
+                 security parameters; and transmitting the data stream comprising 
+                 encrypted packets through the network. 
+                 The method also includes decrypting the encrypted packets at 
+                 a receiving system using congruent techniques.},
 }
 
 @Patent{Rrao2020,
@@ -237,10 +249,49 @@
   month       = aug,
   monthfiled  = aug,
   note        = {Patent Application},
-  title       = {Sd-fec defect propagation across regeneration nodes in support of single and multi-carrier super channel protection in ROADM networks},
+  title       = {Sd-fec defect propagation across regeneration nodes in support of 
+                 single and multi-carrier super channel protection in ROADM networks},
   type        = {patreq},
   url         = {https://patents.google.com/patent/US20210226697A1/},
-  abstract    = {A regen node is described. The regen node includes a coherent receiver, a control module and a coherent transmitter. The coherent receiver has circuitry to convert a first optical signal received from an upstream node in an optical layer of an optical network to a first digital data stream in a digital layer having a first FEC frame and a data traffic. The control module extracts a first fault signal from the first FEC frame; generates a second fault signal based at least in part on the first fault signal; and encodes the second fault signal within a second FEC frame with the data traffic into a second digital data stream on the digital layer. The coherent transmitter has circuitry to convert the second digital data stream into a second optical signal on the optical layer and to transmit the second optical signal to a downstream node.},
+  abstract    = {A regen node is described. 
+                 The regen node includes a coherent receiver, a control module and a coherent transmitter. 
+                 The coherent receiver has circuitry to convert a first optical signal received from an 
+                 upstream node in an optical layer of an optical network to a first digital data stream 
+                 in a digital layer having a first FEC frame and a data traffic. The control module 
+                 extracts a first fault signal from the first FEC frame; 
+                 generates a second fault signal based at least in part on the first fault signal; 
+                 and encodes the second fault signal within a second FEC frame with the data traffic 
+                 into a second digital data stream on the digital layer. 
+                 The coherent transmitter has circuitry to convert the second digital data stream into 
+                 a second optical signal on the optical layer and to transmit the second optical signal 
+                 to a downstream node.},
 }
 
+@patent{Valiveti2022,
+  nationality = {US},
+  number      = {},
+  year        = {2022},
+  yearfiled   = {2022},
+  assignee    = {Infinera Corp},
+  author      = {Radhakrishna Valiveti and Rajan Rao and 
+                 Vinod Narippatta and Syed Sharfuddin and Parthiban Kandappan},
+  day         = {25},
+  dayfiled    = {25},
+  month       = mar,
+  monthfiled  = mar,
+  note        = {Patent Application},
+  title       = {Providing Access to Client Overhead while Transmitting the Client
+                 Signal over Multiple Optical Sub-Carriers},
+  type        = {patreq},
+  url         = {},
+  abstract    = {A method includes receiving client data; extracting overhead data from the client data; 
+                mapping the client data into one or more frames, where each of the one or more frames has a 
+                frame payload section and a frame overhead section, where the client data is mapped into the 
+                one or more frames; inserting the overhead data into the frame overhead section of the one or 
+                more frames; transporting the one or more frames across a network by generating a plurality of 
+                optical subcarriers carrying the one or more frames; extracting the overhead data from the frame 
+                overhead section of the one or more frames; recovering the client data from the one or more 
+                frames; inserting the extracted overhead data into the recovered client data to create modified 
+                client data; and outputting the modified client data. },
+}
 @Comment{jabref-meta: databaseType:bibtex;}
